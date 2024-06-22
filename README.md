@@ -25,7 +25,7 @@ Enhance the LNbits TPOS extension by adding functionality to handle payment JSON
    -  Modify the TPOS screen to display a "Print Receipt" button after the payment is successfully processed. (see above screenshot left)
    -  Modify TPoS receipt "last payments" to print receipt even after the payment process is finished. (see above Screenshot right)
 
-## Archivment example
+## Achievment example
 
 
 https://github.com/DoktorShift/tpos_receipt_print/assets/106493492/e926a0dd-4adc-45e4-bc39-84ee11a668c3
