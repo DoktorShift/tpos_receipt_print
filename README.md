@@ -36,7 +36,7 @@ https://github.com/DoktorShift/tpos_receipt_print/assets/106493492/e926a0dd-4adc
 
 
 ## Contribute:
-You want to contribute but lack of skillz? You can [Donate](https://timecatcher.lnbits.de/tipjar/31) to enhance the bounty and make it attractive for developer to code this.
+You want to contribute but lack of skillz? You can [Donate](https://timecatcher.lnbits.de/tipjar/31) to enhance the bounty and make it attractive for developer to code this. Funds will be send by me to the dev since the printer function is merged into lnbits main.
 
 
 ## Restrictions
