@@ -2,6 +2,8 @@
 
 Enhance the LNbits TPOS extension by adding functionality to handle payment JSONs and generate printable receipts. After a payment is received and processed, a "Print Receipt" button should appear on the TPOS screen, allowing users to print the receipt. Ensure compatibility with devices that do not have a printer by providing alternative options.
 
+The bounty will be paid by me once the changes are merged into lnbits main. 
+
 **Action after setteled payment**
 1) Successfully handle ´payment´ object JSON, extracting necessary details.
 2) Generate a structured receipt based on the extracted payment information.
