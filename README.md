@@ -13,7 +13,7 @@ The bounty will be paid by me once the changes are merged into lnbits main.
 
 ![print_3](https://github.com/DoktorShift/tpos_receipt_print/assets/106493492/9a99ec7a-ba07-4a45-8cc8-40599459c507)
 
-**Steps to archive Bounty**
+**Steps to achieve Bounty**
 1. Payment JSON Handling:
    -  Extract the 'payment' object from the received JSON
 
