@@ -27,7 +27,8 @@ Enhance the LNbits TPOS extension by adding functionality to handle payment JSON
 
 ## Archivment example
 
-https://github.com/DoktorShift/tpos_receipt_print/assets/106493492/7d3388a7-711d-466d-8c72-c0665a625739
+
+https://github.com/DoktorShift/tpos_receipt_print/assets/106493492/e926a0dd-4adc-45e4-bc39-84ee11a668c3
 
 
 
