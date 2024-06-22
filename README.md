@@ -36,5 +36,58 @@ https://github.com/DoktorShift/tpos_receipt_print/assets/106493492/e926a0dd-4adc
 ## Contribute:
 You want to contribute but lack of skillz? You can [Donate](https://timecatcher.lnbits.de/tipjar/31) to enhance the bounty and make it attractive for developer to code this.
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Wallet Balance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .balance {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="balance">
+        <h1>Wallet Balance: <span id="walletBalance">Loading...</span></h1>
+    </div>
+
+    <script>
+        async function fetchWalletBalance() {
+            try {
+                const response = await fetch('/api/walletBalance');
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const data = await response.json();
+                document.getElementById('walletBalance').textContent = data.balance + ' sats';
+            } catch (error) {
+                console.error('Error fetching wallet balance:', error);
+                document.getElementById('walletBalance').textContent = 'Error fetching balance';
+            }
+        }
+
+        // Fetch the wallet balance initially
+        fetchWalletBalance();
+
+        // Set an interval to fetch the wallet balance every 10 seconds
+        setInterval(fetchWalletBalance, 10000);
+    </script>
+</body>
+</html>
+
+
 ## Restrictions
 Do not add dependencies, LNbits has plenty of dependencies you can use.
